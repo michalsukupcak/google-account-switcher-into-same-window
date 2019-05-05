@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Google Account Switcher Into Same Window",
+  "version": "1.0.0",
+  "description": "Changes Google Account Switcher behavior from opening new window/tab into staying in the same window.",
+  "content_scripts": [{
+    "js": [ "script.js" ],
+    "matches": [
+      "https://*.google.com/*"
+    ]
+  }]
+}
